@@ -1,0 +1,68 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+
+# TypeScript build
+dist/
+build/
+out/
+tsbuildinfo
+
+# Next.js build output
+.next/
+out/
+
+# Testing
+coverage/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Cache
+.cache/
+.next/cache/
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*~
+*.sublime-project
+*.sublime-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Other
+*.tgz
+*.lock
+*.lock-wscript
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Typescript
+*.tsbuildinfo
+
+# Specific to kafka_learning project
+kafka_learning/catalog_service/node_modules/
+kafka_learning/catalog_service/dist/
+kafka_learning/catalog_service/build/
+kafka_learning/catalog_service/out/
+
+kafka_learning/order_service/node_modules/
+kafka_learning/order_service/dist/
+kafka_learning/order_service/build/
+kafka_learning/order_service/out/
